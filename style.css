@@ -27,25 +27,21 @@ h5{
 }
 
 .nav{
-    border-radius: 15px;
-    border-width: medium;
-    background-color:#afd7fa;
-    padding: 8px;
     display:flex;
-}
+    flex-direction: row;
 
-.list-item{
-    margin-top: 20px;
-    border-radius: 15px;
-    border-width: medium;
-    background-color:white;
-    display:flex;
+    background-color:#afd7fa;
+    padding: 1rem 3rem;
+    margin: 1rem 0rem;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px 1px rgba(0,0,0,0.05);    
 }
 
 .nav-text{
-    text-align: center;
+    text-align: left;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .whitebox{
@@ -71,21 +67,35 @@ h5{
     border-radius: 15px;
 }
 
+.list-item{
+    margin: 1rem 0rem;
+    border-radius: 20px;
+    background-color:white;
+    text-align: left;
+    box-shadow: 0 2px 5px 1px rgba(0,0,0,0.05);
+
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 2.4rem;
+}
+
 .list-maintext{
     color: #394a6f;
-    text-align: left;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto 1rem;
     font-weight: 600;
     font-size:large;
+    
+    flex: 1;
 }
 
 .list-subtext{
     color: #8a95ac;
     text-align: right;
     font-weight: 350;
-    margin-left: auto;
-    margin-right: auto;
+    line height: 1rem;
+    margin: auto 1rem;
+
+    flex: 1;
 }
 
 .button-red{
