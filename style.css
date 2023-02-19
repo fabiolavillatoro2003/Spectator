@@ -2,6 +2,16 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background-color:#f1f1f1;
+}
+
+h1{
+    color:#36486d;
+}
+
+h5{
+    color:white;
+    font-weight: 550;
 }
 
 .heading {
@@ -66,14 +76,14 @@ body {
     text-align: left;
     margin-left: auto;
     margin-right: auto;
-    font-weight: 550;
+    font-weight: 600;
     font-size:large;
 }
 
 .list-subtext{
-    color: #8c97ad;
+    color: #8a95ac;
     text-align: right;
-    font-weight: 100;
+    font-weight: 350;
     margin-left: auto;
     margin-right: auto;
 }
