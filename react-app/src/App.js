@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import navButton from './components/navButton';
+import addButton from './components/navButton';
 
 function App() {
   return (
@@ -8,19 +10,12 @@ function App() {
         <img src="https://images.squarespace-cdn.com/content/53bf2a9be4b05a05f0bd263c/1484560744718-DP3TUIH6L91H0AONXPRG/Screen+Shot+2017-01-16+at+4.58.38+AM.png?format=1000w&content-type=image%2Fpng"
           alt="Spectator Publishing Company Logo" width='20%' height='20%'></img>
         <h1 className="heading">Spectator's Sources</h1>
-
-        <div className="nav">
-          <h5 className="nav-text">
-           Source Name:
-          </h5>
-          <div className="whitebox"><input type='text' placeholder="TYPE"/></div>
-          <h5 className="nav-text">
-            Source Email:
-          </h5>
-          <div className="whitebox"><input type="text"/></div>
-          <button className="button-green">ADD</button>
-        </div>
+        
+        <navButton>
+          <addButton></addButton>
+        </navButton>
       </div>
+      
 
       <div className="list-item">
         <p className="list-maintext">
