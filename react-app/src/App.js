@@ -1,7 +1,7 @@
-import logo from './logo.svg';
+import Logo from './Logo.svg';
 import './App.css';
-import navButton from './components/navButton';
-import addButton from './components/navButton';
+import NavButton from './components/NavButton';
+import AddButton from './components/AddButton';
 
 function App() {
   return (
@@ -11,9 +11,10 @@ function App() {
           alt="Spectator Publishing Company Logo" width='20%' height='20%'></img>
         <h1 className="heading">Spectator's Sources</h1>
         
-        <navButton>
-          <addButton></addButton>
-        </navButton>
+        <NavButton>
+          <AddButton></AddButton>
+        </NavButton>
+        
       </div>
       
 

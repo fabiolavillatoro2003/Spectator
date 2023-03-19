@@ -12,7 +12,6 @@ function NavButton(){
           </div>
     );
 }
-
 export default NavButton;
 
 
