@@ -1,7 +1,7 @@
-import Logo from './Logo.svg';
+import logo from './logo.svg';
 import './App.css';
 import NavButton from './components/NavButton';
-import AddButton from './components/AddButton';
+
 
 function App() {
   return (
@@ -12,9 +12,9 @@ function App() {
         <h1 className="heading">Spectator's Sources</h1>
         
         <NavButton>
-          <AddButton></AddButton>
         </NavButton>
         
+
       </div>
       
 

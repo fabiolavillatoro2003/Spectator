@@ -1,3 +1,5 @@
+import AddButton from './AddButton';
+
 function NavButton(){
     return (
         <div className="nav">
@@ -9,10 +11,12 @@ function NavButton(){
             Source Email:
             </h5>
             <div className="whitebox"><input type="text"/></div>
+            <AddButton></AddButton>
           </div>
     );
 }
 export default NavButton;
+
 
 
 
