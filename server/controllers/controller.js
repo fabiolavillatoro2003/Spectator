@@ -2,13 +2,13 @@ module.exports = {
     hello: (req, res) => {
         res.json({"message": "Hello World!"});
     },
-    get: (req, res) => {
+    sources: (req, res) => {
         res.json({"message": "Retrieving"});
     },
-    post: (req, res) => {
+    add_source: (req, res) => {
         res.json({"message": "Added"});
     },
-    postDelete: (req, res) => {
+    delete_source: (req, res) => {
         res.json({"message": "Deleted"});
     },
 };
