@@ -1,9 +1,12 @@
+import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import NavButton from './components/NavButton';
 
-
+  
 function App() {
+
+
   return (
     <div className="App">
       <div>
@@ -13,6 +16,7 @@ function App() {
         
         <NavButton>
         </NavButton>
+        
         
 
       </div>
